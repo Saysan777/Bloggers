@@ -10,7 +10,7 @@ const postSchema = mongoose.Schema({
     createdAt:{
         type: Date,
         default: new Date()
-    }
+    },
 })
 
 module.exports = mongoose.model("post", postSchema) //new collection posts will be created as it add the 's' at last itself with the above created schema 
